@@ -2,34 +2,42 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DiceRollManagerTMP : MonoBehaviour
+public class DiceRollManager : MonoBehaviour
 {
     [Header("UI Elements")]
     public Button rollButton;
-    public TMP_Text diceResultText;    // Shows the dice roll
+    public TMP_Text diceResultText;
     public Button failButton;
     public Button successButton;
-    public TMP_Text successText;       // Message shown on success
+    public TMP_Text successText;
 
     private void Start()
     {
-        // Hide outcome buttons and success text at start
         failButton.gameObject.SetActive(false);
         successButton.gameObject.SetActive(false);
         successText.gameObject.SetActive(false);
-
-        // Assign roll button click event
         rollButton.onClick.AddListener(RollDice);
     }
 
     void RollDice()
     {
-        int roll = Random.Range(1, 21); // D20 roll
-        diceResultText.text = $"You rolled: {roll}";
+        int baseRoll = Random.Range(1, 21);
+        int luckBonus = LuckManager.Instance.GetLuckBonus();
+        int totalRoll = baseRoll + luckBonus;
+
+        // Build the text dynamically depending on whether the orb has been collected
+        if (luckBonus > 0)
+        {
+            diceResultText.text = $"You rolled: {baseRoll} + {luckBonus} (Luck Bonus) = {totalRoll}";
+        }
+        else
+        {
+            diceResultText.text = $"You rolled: {baseRoll}";
+        }
 
         rollButton.interactable = false;
 
-        if (roll <= 10)
+        if (totalRoll <= 10)
         {
             failButton.gameObject.SetActive(true);
         }
