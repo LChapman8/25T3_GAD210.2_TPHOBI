@@ -4112,7 +4112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &293250271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6087,7 +6087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &416269647
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24663,7 +24663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1974664900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25569,11 +25569,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You found no other way to escape, you died a boney death.
+  m_text: 'You found no other way to escape, You hear the smash of the glass window
+    behind you as the undead poor in and surround you, you died a boney death.
 
 
-    You hear
-    the voice chime in as you begin to fade away "i forgot to feed them today...sorry
+    You
+    hear the voice chime in as you begin to fade away "i forgot to feed them today...sorry
     about that" '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25601,7 +25602,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.4
+  m_fontSize: 30.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
