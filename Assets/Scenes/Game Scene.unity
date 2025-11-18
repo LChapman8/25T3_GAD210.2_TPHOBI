@@ -1100,7 +1100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 659, y: -308}
+  m_AnchoredPosition: {x: 659, y: -461}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57467691
@@ -4165,7 +4165,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Making your way through the corridor and into the room you see a large
+  m_text: Making your way through the corridor and into the room, you see a large
     chest with a glowing orb inside
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4281,7 +4281,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 744, y: -108}
+  m_AnchoredPosition: {x: 738, y: -328}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258392124
@@ -4963,7 +4963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &293250271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7099,7 +7099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 467, y: 241}
+  m_AnchoredPosition: {x: 458, y: 305}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421425897
@@ -7122,13 +7122,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As you come through the arch was you enter a large room with a grand but
-    broken bridge in the centre. The ravine underneath seams absolutely bottomless.
+  m_text: 'As you enter through the large archway, you find yourself in a large room
+    with a grand but broken bridge in the centre. The ravine underneath seams absolutely
+    bottomless.
 
 
-    Would
-    you like to try and jump across, cast fly on yourself and fly across or jump
-    into the ravine?'
+    Would you like to try and jump across the bridge? Cast fly
+    on yourself and fly across? Or Take a leap of faith into the ravine?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -7193,7 +7193,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -367.85065, w: -344.16876}
+  m_margin: {x: 0, y: 0, z: -367.85065, w: -426.7843}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9514,8 +9514,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You cast shield just as you hear the lich scream " DIE!!!!" you deflect
-    his Power Word: Kill spell.
+  m_text: 'You cast shield just as you hear the lich scream "DIE!!!!" you deflect
+    his "Power Word: Kill" spell.
 
 
     What do you do next?'
@@ -9631,7 +9631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 509, y: 362}
+  m_AnchoredPosition: {x: 509, y: 389}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656163605
@@ -9654,8 +9654,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You use your fancy pants wizard magic to make an acana check on the door
+  m_text: 'You use your fancy pants wizard magic to make an acana check on the door
     handle.
+
+
+    (An Arcana check is a roll to see if magic is present) The DC (Difficulty
+    check) for this roll is 11 (you must roll an 11 or higher to succeed the roll)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -10354,7 +10358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &704544878
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10570,11 +10574,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As you appraoch the door, you notice the handle has a faint blue glow
+  m_text: 'As you appraoch the door, you notice the handle has a faint blue glow.
 
 
     Would
-    you like to inspect the handle or leave the door and return to the main foyer?'
+    you like to inspect the handle? or leave the door and return to the main foyer?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -10983,7 +10987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 740, y: 131}
+  m_AnchoredPosition: {x: 740, y: -129}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734526557
@@ -12341,7 +12345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 515, y: 6}
+  m_AnchoredPosition: {x: 515, y: -138}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &823008642
@@ -12561,7 +12565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -515, y: 402}
+  m_AnchoredPosition: {x: -553, y: 402}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851525275
@@ -12585,9 +12589,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "After climbing the stairs you find yourself in a hallway with high ceilings
-    and cobwebs scattered through. \n\nTo your right you see a large archway, leading
-    through to what appears to be a bridge.\n\nOn your left, a very small door you
-    can probably just squeeze through."
+    and cobwebs scattered throughout. \n\nTo your right you see a large archway,
+    leading through to what appears to be a bridge.\n\nOn your left, a very small
+    door you can probably just squeeze through."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -12700,7 +12704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 637, y: 402}
+  m_AnchoredPosition: {x: 637, y: 336}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &878074340
@@ -12723,8 +12727,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You make it halfway up the wall, make a strength check to see if you can
-    make it the rest of the way
+  m_text: 'You begin climbing and make it halfway up the wall, you must make a strength
+    check (DC 11) to see if you can make it the rest of the way up
+
+
+    (A strength
+    check is a roll to determine if you''re strong enough to continue the current
+    task, DC = Difficulty check, which is the number you need to roll to succeed
+    the check.)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -12751,8 +12761,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30.27
+  m_fontSizeBase: 30.27
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14830,7 +14840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "you enter this room to find yourself at the foot of two staircases, one
+  m_text: "You enter the room to find yourself at the foot of two staircases, one
     that goes left, one that goes right. \n\nWhich direction do you choose? "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15780,7 +15790,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 724, y: -179}
+  m_AnchoredPosition: {x: 724, y: -426}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134177328
@@ -16119,7 +16129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 518, y: -54}
+  m_AnchoredPosition: {x: 518, y: -211}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161756614
@@ -16545,7 +16555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You blink out the items in your eye and the debree clears! you soar across
+  m_text: You blink out the debre in your eyes and your vision clears! you soar across
     to the other side.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18434,9 +18444,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "As you flip through the pages you find yourself at the end of the book
     where one incantation has caught your eye.\n\n\u201CTo access the power of the
-    hall, simply read this spell,\u201D \n\nit said, bold and ominous.\nYou didn\u2019t
+    hall, simply read this spell.\u201D \n\nit said, bold and ominous.\nYou didn\u2019t
     exactly pause to consider the possible consequences.\n\nYou read the spell aloud,
-    the pages flare, the room begins to tremble and a blinding light envelops you!"
+    the pages flared, the room began to tremble and a blinding light envelops you!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -19134,12 +19144,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As you touched the handle magical lighting energy surges through your
-    body frying you immediantly.
+  m_text: 'As you touch the handle, magical lighting energy surges through your body
+    frying you immediantly.
 
 
-    "Well that was...Electrifying" laughs the
-    voice as you slowlyfade away.'
+    "Well that was...Electrifying" laughs the voice
+    as you slowly fade away.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -19830,8 +19840,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The Hall splits into a large open room. A large stone starcase fills the
-    right side of the room drabbed in cobwebs.\n\nAn Old ornate arched wooden door
-    stands to the left. \n\nIn between them  an open window with a feint cold breeze
+    right side of the room drabbed in cobwebs.\n\nAn old, ornate, arched wooden door
+    stands to the left. \n\nIn between them an open window with a feint, cold breeze
     blowing in."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21564,8 +21574,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: As you walk forward, you hear a slight Click, youre too slow to act as
-    the floor falls out beneath you.
+  m_text: As you walk forward, you hear a slight click. You're too slow to act as
+    the floor falls out beneath you as you plummet down.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -21739,7 +21749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A Procession of the dead marches through the window flooding the hall
+  m_text: "A procession of the dead marches through the window flooding the hall
     below. \n\nThe voice thunders around you \"Good thing you decided to climb the
     stairs, they look awfully bitey and i forgot to feed them today\" \n\n"
   m_isRightToLeft: 0
@@ -21806,7 +21816,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -11.615585, z: -163.78033, w: -411.19263}
+  m_margin: {x: 0, y: -11.615585, z: -163.78033, w: -446.47644}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -22149,7 +22159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You cast fireball with all of your magical might stirking the lich hard!
+  m_text: You cast fireball with all of your magical might, striking the lich hard!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -22214,7 +22224,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -367.85065, w: -52.4003}
+  m_margin: {x: 0, y: 0, z: -367.85065, w: -80.79947}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -23238,7 +23248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 659, y: -108}
+  m_AnchoredPosition: {x: 659, y: -225}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725107049
@@ -23705,7 +23715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 659, y: 124}
+  m_AnchoredPosition: {x: 659, y: -60}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736422493
@@ -24115,7 +24125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 637, y: 47}
+  m_AnchoredPosition: {x: 637, y: -200}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1785237777
@@ -24250,12 +24260,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As you approach the window you look out of it to see a procession of the
-    dead marching towards the window
+  m_text: 'As you approach the window you look out to see a procession of the dead
+    marching towards the window.
 
 
-    "im sure i dont need to tell you this,
-    but ghosts can move through walls you know!" the voice mocks
+    "I''m sure i dont need to tell you this, but
+    ghosts can move through walls you know!" the voice mocks
 
 
     Do you search
@@ -24327,7 +24337,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -153.32608, w: -433.26245}
+  m_margin: {x: 0, y: 0, z: -164.51358, w: -650.12836}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -24473,11 +24483,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As you turn to retreat the lich blasts you with powerful magic, killing
+  m_text: 'As you turn to retreat, the lich blasts you with powerful magic, killing
     you instantly.
 
 
-    you died a cowards death!
+    You died a cowards death!
 
 
     "Youre simply no match for
@@ -24772,8 +24782,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: You use your magic to cast fly on yourself, the dust and debre gets in
-    your eyes from your take off, roll a consitution saving throw to see if you can
-    maintain the spell!
+    your eyes from take off, roll a consitution saving throw to see if you can maintain
+    the spell! (DC 11)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -25919,10 +25929,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You leap off the edge of the cliff into the ravine and suddenly hit solid
-    ground? an invisible, hidden bridge!\n\n\"I dont know if youre incredibly perceptive
-    or incredibly stupid, but i admire it all the same\" the voice says, honestly.
-    \n\nYou make it safely to the other side."
+  m_text: "You take a leap of faith off the edge of the cliff, into the ravine and
+    suddenly hit solid ground? an invisible, hidden bridge!\n\n\"I dont know if youre
+    incredibly perceptive or incredibly stupid, but i admire it all the same\" the
+    voice says, honestly. \n\nYou make it safely to the other side."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -27539,7 +27549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 637, y: -33.000015}
+  m_AnchoredPosition: {x: 637, y: -280}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2018288466
@@ -27569,14 +27579,14 @@ RectTransform:
   m_GameObject: {fileID: 2018288466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1068924241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -107}
+  m_AnchoredPosition: {x: 11, y: -147}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018288468
@@ -27604,7 +27614,7 @@ MonoBehaviour:
 
 
     You
-    hear the voice chime in as you begin to fade away "i forgot to feed them today...sorry
+    hear the voice chime in as you begin to fade away "I forgot to feed them today...sorry
     about that" '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27632,7 +27642,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.85
+  m_fontSize: 30.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -27949,12 +27959,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You enter what appears to be the final room of the hall, across from you
-    a terrifying lich.
+  m_text: 'You enter what appears to be the final room of the hall. Across from you
+    stands a terrifying lich.
 
 
-    "We meet at last intruder! Time to remove you from my
-    domain!"
+    "We meet at last intruder! Time to remove you
+    from my domain!"
 
 
     You have mere seconds to react what do you do?'
@@ -28789,8 +28799,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'After climbing to the top you are presented with a long narrow corridor,
-    would you like to walk to the door or carefully creep down against the side wall? '
+  m_text: 'After climbing to the top, you are presented with a long, narrow corridor.
+    Would you like to walk to the door? or carefully creep down against the side
+    wall? '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -29262,9 +29273,9 @@ MonoBehaviour:
   m_text: 'You have recieved the ORB OF LUCK! (+4 to all future dice rolls)
 
 
-    "Wow
+    "Wow,
     breaking into my house AND stealing my stuff? some guest you are!" the voice
-    says angrily'
+    says angrily.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -29420,10 +29431,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "When you open your eyes, you\u2019re in a dimly lit hall, torchlight flickering
-    on ancient stone walls.\n\nA voice booms from nowhere,\n\u201COh, by the way\u2026
-    seeming you didnt bother to read the next page, to get the power, you actually
-    have to make it through this hall ... Alive... Good luck, you are going to need
-    it!\u201D"
+    against ancient stone walls.\n\nA voice booms from nowhere,\n\u201COh, by the
+    way\u2026 seeming you didnt bother to read the next page, to get the power, you
+    actually have to make it through this hall ... Alive... Good luck, you are going
+    to need it!\u201D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}

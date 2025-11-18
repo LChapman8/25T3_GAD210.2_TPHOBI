@@ -11,12 +11,26 @@ public class DiceRollManager : MonoBehaviour
     public Button successButton;
     public TMP_Text successText;
 
+    private void OnEnable()
+    {
+        ResetUI();
+    }
+
     private void Start()
     {
+        rollButton.onClick.AddListener(RollDice);
+    }
+
+    void ResetUI()
+    {
+        // Clear text
+        diceResultText.text = "";
+
+        // Reset buttons
+        rollButton.interactable = true;
         failButton.gameObject.SetActive(false);
         successButton.gameObject.SetActive(false);
         successText.gameObject.SetActive(false);
-        rollButton.onClick.AddListener(RollDice);
     }
 
     void RollDice()
@@ -25,7 +39,6 @@ public class DiceRollManager : MonoBehaviour
         int luckBonus = LuckManager.Instance.GetLuckBonus();
         int totalRoll = baseRoll + luckBonus;
 
-        // Build the text dynamically depending on whether the orb has been collected
         if (luckBonus > 0)
         {
             diceResultText.text = $"You rolled: {baseRoll} + {luckBonus} (Luck Bonus) = {totalRoll}";
