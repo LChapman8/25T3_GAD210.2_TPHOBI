@@ -350,7 +350,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1448534299}
+      - m_Target: {fileID: 704544877}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -4963,7 +4963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &293250271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10051,9 +10051,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You awaken back in your libary, the tome still hums with magical power,
-    though you may of escaped the hallm you did not claim the powerful magics within!
-    \n\nCongratulations on your escape\n\n"
+  m_text: "You awaken back in your libary. The tome still hums with magical power,
+    though you may of escaped the hall, you did not claim the powerful magics within!
+    \n\nCongratulations on your escape!\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -10358,7 +10358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &704544878
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20819,8 +20819,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A large magical Portal opens at the end of the hall, You can assertain
-    this will return you to your world, with your new found power!
+  m_text: A large, magical Portal opens at the end of the hall, You can assertain
+    that this portal will return you to your world, with your new found power!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -22580,7 +22580,7 @@ MonoBehaviour:
 
 
     You
-    misty step back down to admire your handywork.'
+    mistystep back down to admire your handywork.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -25181,7 +25181,7 @@ MonoBehaviour:
 
 
     This
-    is the power you were promised from the book its finally yours!'
+    is the power you were promised from the book, its finally yours!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -25468,7 +25468,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'You awaken back in your libary, the tome humming with magical power infront
-    of you. quickly it goes dull, the pages of the tome become blank, you have drained
+    of you. Quickly it goes dull, the pages of the tome become blank, you have drained
     them of their power.
 
 
@@ -29152,8 +29152,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "As you exit the top of the stairs you find yourself in a narrow corridor
-    with a magical portal at the end of it. \n\nA stone slab slams shut behind you
-    blocking your return"
+    with a magical portal at the end of it. \n\nA stone slab slams shut behind you,
+    blocking your return."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -29218,7 +29218,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -367.85065, w: -187.38618}
+  m_margin: {x: 0, y: 0, z: -367.85065, w: -265.83047}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
