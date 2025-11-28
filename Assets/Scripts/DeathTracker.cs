@@ -32,7 +32,7 @@ public class DeathTracker : MonoBehaviour
     {
         if (deathText != null)
         {
-            deathText.text = "Deaths: " + deathCount.ToString();
+            deathText.text = ": " + deathCount.ToString();
         }
     }
    
