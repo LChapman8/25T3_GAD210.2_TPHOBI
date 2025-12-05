@@ -27,7 +27,7 @@ public class LuckManager : MonoBehaviour
         {
             hasOrb = true;
             luckBonus = 4;
-            Debug.Log("You picked up the Ring Of Luck! Future rolls are boosted by +4!");
+            Debug.Log("You picked up the Ring Of Luck! Future rolls are boosted by +4!"); // In game text for player 
         }
     }
 
